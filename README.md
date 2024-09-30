@@ -5,7 +5,7 @@
 <a href="https://hub.docker.com/r/alphashell/telegram-report-bot"><img src="https://img.shields.io/badge/Docker%20Hub-telegram--report--bot-blue"></a> 
 
 This repository contains source code of a small yet rather powerful bot for Telegram, which handles reports from users and passes them to admins. 
-Uses [aiogram](https://github.com/aiogram/aiogram) framework.  
+Uses [Alpha](https://github.com/4lph4shell/telegram-report-bot?tab=readme-ov-file) framework.  
 The main goal is to build a bot with no external database needed. Thus, it may lack some features, but hey, it's open source!
 
 #### Screenshot
