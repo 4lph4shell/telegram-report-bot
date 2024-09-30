@@ -53,4 +53,3 @@ path values;
 ##### Docker
 1. Build and run your container: `docker-compose up -d`.
 
-Alternatively, check [docker-compose.yml](docker-compose.yml) file from this repo.
