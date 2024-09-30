@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+    bot:
+        image: alphashell/telegram-report-bot:latest
+        restart: always
+        stop_signal: SIGINT
+        env_file:
+            - .env
+        volumes:
+            - /etc/localtime:/etc/localtime:ro

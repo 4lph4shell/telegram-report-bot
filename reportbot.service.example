@@ -1,0 +1,15 @@
+[Unit]
+Description=Reportbot for Telegram
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/telegram-report-bot/
+ExecStart=/opt/telegram-report-bot/venv/bin/python -m bot
+KillMode=process
+Restart=always
+RestartSec=10
+EnvironmentFile=/opt/telegram-report-bot/.env
+
+[Install]
+WantedBy=multi-user.target
